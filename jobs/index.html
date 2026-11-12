@@ -58,7 +58,11 @@
        <p class="job-meta">Employer &middot; City, ST &middot; $Pay &middot; Posted Oct 30, 2026</p>
        <a class="job-apply" href="https://employer.example/posting">Apply on the employer&rsquo;s site &rarr;</a>
      </article>
-     Pay appears only when the posting lists it. */
+     Pay appears only when the posting lists it.
+     Remote section only: every remote role lives in JOBS:remote, split into
+     'Open anywhere in the U.S.' and 'Only in certain states' (each limited card
+     names the states/time zone it hires in). No remote card goes under a region. */
+  .remote-sub{font-size:19px;font-weight:700;color:var(--steel);margin:24px 0 2px;}
   .job-card{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--gold);border-radius:10px;padding:18px 20px;margin:12px 0;}
   .job-title{font-size:18px;font-weight:700;color:var(--steel);margin-bottom:4px;}
   .job-meta{font-size:15px;color:var(--muted);}
@@ -126,11 +130,6 @@
     <p class="region-note">Douglasville &middot; Powder Springs &middot; Columbus &middot; Rome area</p>
     <!-- JOBS:west-georgia -->
     <article class="job-card">
-      <h3 class="job-title">Customer Service Representative &ndash; Insurance Services (Remote)</h3>
-      <p class="job-meta">TTEC &middot; Remote &middot; $17.50/hr &middot; Posted Oct 26, 2026</p>
-      <a class="job-apply" href="https://www.ttecjobs.com/en/job/austin/customer-service-representative-insurance-services-remote-usa/44028/102467424816">Apply on the employer&rsquo;s site &rarr;</a>
-    </article>
-    <article class="job-card">
       <h3 class="job-title">Activities Assistant</h3>
       <p class="job-meta">Grace Senior Living &middot; Douglasville, GA &middot; Full-time &middot; Posted Oct 27, 2026</p>
       <a class="job-apply" href="https://jobs.equest.com/jobs/GA/grace-senior-living/activities-assistant-493007745.html">Apply on the employer&rsquo;s site &rarr;</a>
@@ -149,11 +148,6 @@
       <h3 class="job-title">Deputy Clerk II &ndash; Criminal</h3>
       <p class="job-meta">Columbus Consolidated Government &middot; Columbus, GA &middot; $17.05/hr &middot; Posted Oct 27, 2026</p>
       <a class="job-apply" href="https://www.careerbuilder.com/job-details/deputy-clerk-ii-g115-criminal-columbus-ga--fb9ac632-19ae-4e88-9eb9-30b957ac1337">Apply on the employer&rsquo;s site &rarr;</a>
-    </article>
-    <article class="job-card">
-      <h3 class="job-title">Customer Service Representative &mdash; Remote</h3>
-      <p class="job-meta">TP (Teleperformance) &middot; Remote &middot; Posted Nov 1, 2026</p>
-      <a class="job-apply" href="https://careersus-teleperformance.icims.com/jobs/90918/2026-90918/job">Apply on the employer&rsquo;s site &rarr;</a>
     </article>
     <article class="job-card">
       <h3 class="job-title">Restaurant Operations Management</h3>
@@ -202,16 +196,6 @@
     <p class="region-note">Birmingham metro &middot; Anniston / Calhoun County</p>
     <!-- JOBS:birmingham-anniston -->
     <article class="job-card">
-      <h3 class="job-title">Senior Customer Service Representative &mdash; Remote</h3>
-      <p class="job-meta">UnitedHealth Group / Optum &middot; Remote (Central Time Zone) &middot; $18&ndash;$32/hr &middot; Posted Oct 29, 2026</p>
-      <a class="job-apply" href="https://careers.unitedhealthgroup.com/job/dallas/senior-customer-service-representative/34088/102607624016">Apply on the employer&rsquo;s site &rarr;</a>
-    </article>
-    <article class="job-card">
-      <h3 class="job-title">Customer Service Representative &ndash; Insurance Services (Remote)</h3>
-      <p class="job-meta">TTEC &middot; Remote &middot; $17.50/hr &middot; Posted Oct 26, 2026</p>
-      <a class="job-apply" href="https://www.ttecjobs.com/en/job/austin/customer-service-representative-insurance-services-remote-usa/44028/102467424816">Apply on the employer&rsquo;s site &rarr;</a>
-    </article>
-    <article class="job-card">
       <h3 class="job-title">Front Desk Receptionist</h3>
       <p class="job-meta">Wettermark Keith &middot; Birmingham, AL &middot; Full-time &middot; Posted Nov 5, 2026</p>
       <a class="job-apply" href="https://job-boards.greenhouse.io/wettermarkkeith/jobs/5282935007">Apply on the employer&rsquo;s site &rarr;</a>
@@ -232,11 +216,6 @@
       <a class="job-apply" href="https://haystackapp.io/jobs/293ba5ec-1439-4451-bc88-2b12079a479f">Apply on the employer&rsquo;s site &rarr;</a>
     </article>
     <article class="job-card">
-      <h3 class="job-title">Customer Service Representative &mdash; Remote</h3>
-      <p class="job-meta">TP (Teleperformance) &middot; Remote &middot; Posted Nov 1, 2026</p>
-      <a class="job-apply" href="https://careersus-teleperformance.icims.com/jobs/90918/2026-90918/job">Apply on the employer&rsquo;s site &rarr;</a>
-    </article>
-    <article class="job-card">
       <h3 class="job-title">Warehouse Associate (3rd Shift)</h3>
       <p class="job-meta">Capstone Logistics &middot; Anniston, AL &middot; $600&ndash;$800+/wk &middot; Posted Oct 30, 2026</p>
       <a class="job-apply" href="https://www.careerbuilder.com/job-details/warehouse-associate-anniston-al--6edb221d-37d2-4b15-be5e-49166f4f4b09">Apply on the posting page &rarr;</a>
@@ -245,11 +224,6 @@
       <h3 class="job-title">Warehouse &mdash; Temp-to-Hire</h3>
       <p class="job-meta">Elwood Staffing for New South Express &middot; Lincoln, AL &middot; $15.75/hr &middot; Posted Oct 30, 2026</p>
       <a class="job-apply" href="https://www.elwoodstaffing.com/jobs/view/4224712/warehouse-light-industrial-alabama-lincoln">Apply on the employer&rsquo;s site &rarr;</a>
-    </article>
-    <article class="job-card">
-      <h3 class="job-title">Remote Call Center Representative</h3>
-      <p class="job-meta">WellSky &middot; Remote (GA, AL, TN, LA, NC, TX) &middot; $15/hr &middot; Posted Oct 19, 2026</p>
-      <a class="job-apply" href="https://wellsky.wd1.myworkdayjobs.com/en-US/WellSkyCareers/job/Remote-Call-Center-Representative_JR5353">Apply on the employer&rsquo;s site &rarr;</a>
     </article>
     <!-- /JOBS:birmingham-anniston -->
     <p class="worksource"><strong>WorkSource / WIOA help:</strong> free help with applications, resumes, and training through Alabama&rsquo;s official workforce system &mdash; <a href="https://alabamaworks.alabama.gov/">AlabamaWorks</a>. Local centers include the Birmingham Comprehensive Career Center and the Anniston Comprehensive Career Center.</p>
@@ -292,16 +266,7 @@
     <h2 class="region-title">Marianna, Florida</h2>
     <p class="region-note">Jackson County</p>
     <!-- JOBS:marianna -->
-    <article class="job-card">
-      <h3 class="job-title">Customer Service Representative &ndash; Insurance Services (Remote)</h3>
-      <p class="job-meta">TTEC &middot; Remote &middot; $17.50/hr &middot; Posted Oct 26, 2026</p>
-      <a class="job-apply" href="https://www.ttecjobs.com/en/job/austin/customer-service-representative-insurance-services-remote-usa/44028/102467424816">Apply on the employer&rsquo;s site &rarr;</a>
-    </article>
-    <article class="job-card">
-      <h3 class="job-title">Customer Service Representative &mdash; Remote</h3>
-      <p class="job-meta">TP (Teleperformance) &middot; Remote &middot; Posted Nov 1, 2026</p>
-      <a class="job-apply" href="https://careersus-teleperformance.icims.com/jobs/90918/2026-90918/job">Apply on the employer&rsquo;s site &rarr;</a>
-    </article>
+    <div class="empty-state">No on-site openings in Marianna right now. New jobs are added every Sunday &mdash; and the <a href="#remote">Remote section below</a> has work-from-home roles, some open in Florida.</div>
     <!-- /JOBS:marianna -->
     <p class="worksource"><strong>WorkSource / WIOA help:</strong> free help with applications, resumes, and training through Florida&rsquo;s official workforce system &mdash; <a href="https://www.employflorida.com/">Employ Florida</a>. The local center is CareerSource Chipola in Marianna.</p>
   </section>
@@ -310,16 +275,6 @@
     <h2 class="region-title">Baton Rouge, Louisiana</h2>
     <p class="region-note">Baton Rouge metro</p>
     <!-- JOBS:baton-rouge -->
-    <article class="job-card">
-      <h3 class="job-title">Senior Customer Service Representative &mdash; Remote</h3>
-      <p class="job-meta">UnitedHealth Group / Optum &middot; Remote (Central Time Zone) &middot; $18&ndash;$32/hr &middot; Posted Oct 29, 2026</p>
-      <a class="job-apply" href="https://careers.unitedhealthgroup.com/job/dallas/senior-customer-service-representative/34088/102607624016">Apply on the employer&rsquo;s site &rarr;</a>
-    </article>
-    <article class="job-card">
-      <h3 class="job-title">Customer Service Representative &ndash; Insurance Services (Remote)</h3>
-      <p class="job-meta">TTEC &middot; Remote &middot; $17.50/hr &middot; Posted Oct 26, 2026</p>
-      <a class="job-apply" href="https://www.ttecjobs.com/en/job/austin/customer-service-representative-insurance-services-remote-usa/44028/102467424816">Apply on the employer&rsquo;s site &rarr;</a>
-    </article>
     <article class="job-card">
       <h3 class="job-title">Retail Assistant Store Manager</h3>
       <p class="job-meta">Office Depot &middot; Baton Rouge, LA &middot; $14.08&ndash;$21.48/hr &middot; Posted Nov 6, 2026</p>
@@ -330,11 +285,6 @@
       <p class="job-meta">FirstCash &middot; Baton Rouge, LA &middot; $10&ndash;$13/hr + commission &middot; Posted Nov 3, 2026</p>
       <a class="job-apply" href="https://firstcashcareers.ttcportals.com/jobs/17100704-retail-sales-associate-2779">Apply on the employer&rsquo;s site &rarr;</a>
     </article>
-    <article class="job-card">
-      <h3 class="job-title">Customer Service Representative &mdash; Remote</h3>
-      <p class="job-meta">TP (Teleperformance) &middot; Remote &middot; Posted Nov 1, 2026</p>
-      <a class="job-apply" href="https://careersus-teleperformance.icims.com/jobs/90918/2026-90918/job">Apply on the employer&rsquo;s site &rarr;</a>
-    </article>
     <!-- /JOBS:baton-rouge -->
     <p class="worksource"><strong>WorkSource / WIOA help:</strong> free help with applications, resumes, and training through Louisiana&rsquo;s official workforce system &mdash; <a href="https://www.louisianaworks.net/hire/">Louisiana Works (HiRE)</a>. The local center is the American Job Center in Baton Rouge.</p>
   </section>
@@ -343,11 +293,6 @@
     <h2 class="region-title">Chicago Southland, Illinois</h2>
     <p class="region-note">Country Club Hills &middot; Tinley Park &middot; Orland Park &middot; Matteson &middot; Chicago south suburbs</p>
     <!-- JOBS:chicago-southland -->
-    <article class="job-card">
-      <h3 class="job-title">Senior Customer Service Representative &mdash; Remote</h3>
-      <p class="job-meta">UnitedHealth Group / Optum &middot; Remote (Central Time Zone) &middot; $18&ndash;$32/hr &middot; Posted Oct 29, 2026</p>
-      <a class="job-apply" href="https://careers.unitedhealthgroup.com/job/dallas/senior-customer-service-representative/34088/102607624016">Apply on the employer&rsquo;s site &rarr;</a>
-    </article>
     <article class="job-card">
       <h3 class="job-title">Guest Service Representative &ndash; Front Desk</h3>
       <p class="job-meta">Homewood Suites by Hilton Orland Park &middot; Orland Park, IL &middot; $16.50&ndash;$17.50/hr &middot; Posted Nov 2, 2026</p>
@@ -369,11 +314,6 @@
       <a class="job-apply" href="https://careers.firsthospitality.com/jobs/4380700-night-auditor-guest-service-representative">Apply on the employer&rsquo;s site &rarr;</a>
     </article>
     <article class="job-card">
-      <h3 class="job-title">Customer Service Representative &mdash; Remote</h3>
-      <p class="job-meta">TP (Teleperformance) &middot; Remote &middot; Posted Nov 1, 2026</p>
-      <a class="job-apply" href="https://careersus-teleperformance.icims.com/jobs/90918/2026-90918/job">Apply on the employer&rsquo;s site &rarr;</a>
-    </article>
-    <article class="job-card">
       <h3 class="job-title">Housekeeper</h3>
       <p class="job-meta">Hampton Inn Chicago Tinley Park &middot; Tinley Park, IL &middot; $15.50&ndash;$16.00/hr &middot; Part time &middot; Verified live Nov 1, 2026</p>
       <a class="job-apply" href="https://aimbridge.fountain.com/apply/aimbridge/opening/hampton-inn-chicago-tinley-park-housekeeper">Apply on the employer&rsquo;s site &rarr;</a>
@@ -389,8 +329,19 @@
 
   <section class="region" id="remote">
     <h2 class="region-title">Remote</h2>
-    <p class="region-note">Work-from-home openings</p>
+    <p class="region-note">Work-from-home openings. Some hire anywhere in the U.S.; others only in certain states &mdash; see the two groups below, and check the states on each card before applying.</p>
     <!-- JOBS:remote -->
+    <h3 class="remote-sub">Open anywhere in the U.S.</h3>
+    <article class="job-card">
+      <h3 class="job-title">Customer Service Representative &ndash; Insurance Services (Remote)</h3>
+      <p class="job-meta">TTEC &middot; Remote &middot; $17.50/hr &middot; Posted Oct 26, 2026</p>
+      <a class="job-apply" href="https://www.ttecjobs.com/en/job/austin/customer-service-representative-insurance-services-remote-usa/44028/102467424816">Apply on the employer&rsquo;s site &rarr;</a>
+    </article>
+    <article class="job-card">
+      <h3 class="job-title">Customer Service Representative &mdash; Remote</h3>
+      <p class="job-meta">TP (Teleperformance) &middot; Remote &middot; Posted Nov 1, 2026</p>
+      <a class="job-apply" href="https://careersus-teleperformance.icims.com/jobs/90918/2026-90918/job">Apply on the employer&rsquo;s site &rarr;</a>
+    </article>
     <article class="job-card">
       <h3 class="job-title">Representative, Support Center &ndash; Remote</h3>
       <p class="job-meta">Molina Healthcare &middot; Remote &middot; $11.09&ndash;$20.50/hr &middot; Full-time &middot; Posted Oct 26, 2026</p>
@@ -440,6 +391,18 @@
       <h3 class="job-title">Customer Support Specialist (Day Shift)</h3>
       <p class="job-meta">Cherry &middot; Remote &middot; $75,000/yr &middot; Posted Oct 23, 2026</p>
       <a class="job-apply" href="https://jobs.ashbyhq.com/withcherry/7f855c87-df26-4cf0-b2e0-df2e1b09b20a">Apply on the employer&rsquo;s site &rarr;</a>
+    </article>
+    <h3 class="remote-sub">Only in certain states</h3>
+    <p class="region-note">These roles hire only in the states or time zone listed on each card. If your state is not listed, the employer will not hire you for that role &mdash; do not apply.</p>
+    <article class="job-card">
+      <h3 class="job-title">Senior Customer Service Representative &mdash; Remote</h3>
+      <p class="job-meta">UnitedHealth Group / Optum &middot; Remote (Central Time Zone) &middot; $18&ndash;$32/hr &middot; Posted Oct 29, 2026</p>
+      <a class="job-apply" href="https://careers.unitedhealthgroup.com/job/dallas/senior-customer-service-representative/34088/102607624016">Apply on the employer&rsquo;s site &rarr;</a>
+    </article>
+    <article class="job-card">
+      <h3 class="job-title">Remote Call Center Representative</h3>
+      <p class="job-meta">WellSky &middot; Remote (GA, AL, TN, LA, NC, TX) &middot; $15/hr &middot; Posted Oct 19, 2026</p>
+      <a class="job-apply" href="https://wellsky.wd1.myworkdayjobs.com/en-US/WellSkyCareers/job/Remote-Call-Center-Representative_JR5353">Apply on the employer&rsquo;s site &rarr;</a>
     </article>
     <!-- /JOBS:remote -->
     <p class="worksource"><strong>WorkSource / WIOA help:</strong> free help with applications, resumes, and training anywhere in the country &mdash; <a href="https://www.careeronestop.org/">CareerOneStop</a>, the U.S. Department of Labor&rsquo;s career site, can also find your nearest American Job Center.</p>
