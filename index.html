@@ -1064,6 +1064,7 @@ gtag('config', 'G-2Y0SPZFMVS');
     if (answers.stopped === "yes") phase = "Phase 3 \u2014 Independent (Benefits Replaced by Earnings)";
     else if (answers.twp === "yes") phase = "Phase 2 \u2014 Adjusting (Extended Period of Eligibility)";
     else if (answers.benefits === "ssi" && answers.working === "yes") phase = "Phase 2 \u2014 Adjusting (Your Payment Moves With Your Earnings)";
+    else if (answers.benefits === "ssi") phase = "Phase 1 \u2014 Protected (SSI: Payment Adjusts Gradually)";
     else phase = "Phase 1 \u2014 Protected (Trial Work Period)";
     resPhase.textContent = "You look like " + phase + ".";
     var notes = [];
